@@ -1,0 +1,111 @@
+/*Задаем корректный подсчет ширины блоков*/
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Tahoma, sans-serif; /*sans serif это шрифт без засечек*/
+  font-size: 24px;
+  line-height: 1.4;
+  color: #1a1a1a;
+}
+
+.text-section{
+  margin: 40px 20px;
+}
+
+.subh1{
+  display: block;
+  text-align: center;
+}
+
+.mainpage{
+  text-align: center;
+  font-weight: 900;
+}
+
+.contentDiv{
+  margin-top: 80px;
+  margin-bottom: 60px;
+  padding: 30px 10%;
+  text-align: center; /*Новое*/
+}
+
+.video, .form{
+
+  display: inline-block;
+  vertical-align: top; /*new выравнивает по верхней границе*/
+}
+
+.form{
+  border: 5px solid blue;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+.form input{
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin: 32px 0px;
+  padding: 17px;
+  font-size: 16px;
+}
+
+.form p{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form button{
+  height: 60px;
+  width:100%;
+  color:white;
+  font-size: 16px;
+  font-weight: 600;
+  background: blue;
+  border: none;
+}
+.feature{
+  margin-top: 40px;
+  padding: 10px 20%;
+}
+.col{
+  margin: 10px 60px;
+  display: inline-block;
+  text-align: center;
+  max-height: 100px;
+  max-width: 100px;
+  background-size: cover;
+}
+.col p{
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.col img{
+  width: 100%;
+  height: 100%;
+
+}
+
+h2{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+
+}
+.bb{
+  display: block; /*!!!!!трик!!!!!!*/
+  text-align: center;
+  margin: 30px auto; /*Трик в d block и m auto*/
+  height: 60px;
+  width:30%;
+  color:white;
+  font-size: 16px;
+  font-weight: 600;
+  background: blue;
+  border: none;
+}
